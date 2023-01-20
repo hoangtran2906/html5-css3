@@ -1,0 +1,138 @@
+﻿@charset "utf-8"; /*Q5*/
+@import url(cw_layout.css); /*Q6*/ 
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Civil War History Style Sheet
+   Author: Ethan Tran
+   Date: 01/18/2023
+   
+   Filename: cw_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+html { /*Q7*/
+   background-color: rgb(151,151,151);
+}
+
+body { /*Q8*/
+   background-color: rgb(180, 180, 223);
+   font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2 { /*Q9*/
+   font-weight: normal;
+}
+
+nav a { /*Q10*/
+   text-decoration: none;
+}
+
+footer { /*Q11*/
+   color: white;
+   background-color: rgb(101, 101, 101);
+   font-size: 0.8em; 
+   text-align: center;
+   padding: 1px 0;
+
+}
+
+/* Body Header Styles */
+
+body > header { /*Q12*/
+   background-color:rgb(97, 97, 211);
+}
+
+body > header > h1 { /*Q13*/
+   font-size: 4vw;
+   color:  rgba(255, 255, 255, 0.8);
+   font-family: Limelight,cursive;
+   margin: 0px;
+}
+
+body > header > h1 > span{ /*Q14*/
+   color: rgba(255, 255, 255, 0.4);
+}
+
+/* Navigation Styles */
+
+#mainLinks a { /*Q15*/
+   padding: 5px 0;
+}
+
+#mainLinks a:link, #mainLinks a:visited { /*Q16*/
+   color: white;
+}
+
+#mainLinks a:hover, #mainLinks a:active { /*Q17*/
+   color: rgba(255, 255, 255, 0.8);
+   background-color: rgba(51, 51, 51, 0.5);
+}
+
+/* Outline Styles */
+
+#outline { /*Q18*/
+   color: rgb(51, 51, 51);
+   font-size: 0.8em;
+}
+
+#outline h1 { /*Q19*/
+   text-align: center;
+}
+
+#outline > ol { /*Q20*/
+   line-height: 2em;
+   margin: 0px 5px;
+   list-style-type: upper-roman;
+}
+
+#outline ol ol { /*Q21*/
+   list-style-type: upper-alpha;
+}
+
+#outline a:link, #outline a:visited { /*Q22*/
+   color:rgb(101, 101, 101);
+}
+
+#outline a:hover,#outline a:active { /*Q23*/
+   color: e rgb(97, 97, 211);
+   text-decoration: underline;
+}
+
+/* Section Styles */
+
+section { /*Q24*/
+   background-color: rgb(220, 220, 220) ;
+}
+
+section header h1 { /*Q25*/
+   font-size: 2.2em;
+   padding-left: 10px;
+}
+
+/* Article Styles */
+
+article h2 { /*Q26*/
+   font-size: 1.4em;
+}
+
+article > p:first-of-type::first-letter { /*Q27*/
+   font-size: 2em;
+   vertical-align: baseline;
+}
+
+/* Aside Styles */
+
+aside {
+   font-size: 0.9em;
+}
+
+aside h1 {
+   font-size: 1.4em;
+   text-align: center;
+}
